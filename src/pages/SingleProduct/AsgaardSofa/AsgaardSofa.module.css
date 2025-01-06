@@ -1,0 +1,288 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1400px;
+    height: 820px;
+    margin-bottom: 56px;
+}
+
+.imgSection {
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 32px 82px 0px 99px;
+}
+
+.img1 {
+    width: 76px;
+    height: 80px;
+    margin-bottom: 32px;
+}
+
+.img2 {
+    width: 481px;
+    height: 500px;
+}
+
+.imgColumn {
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+}
+
+.textSection {
+    width: 606.01px;
+    height: 730px;
+}
+
+.textTitle {
+    font-size: 42px;
+}
+
+.textPrice {
+    font-size: 24px;
+    color: rgba(159, 159, 159, 1);
+}
+
+.wrapStars {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 30px;
+}
+
+.img3 {
+    width: 124px;
+    height: 20px;
+    margin-right: 25px;
+}
+
+.innerCustomerReview {
+    width: 225px;
+    height: 20px;
+    border-left: 1px solid rgba(159, 159, 159, 1);
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.textCustomerReview {
+    color: rgba(159, 159, 159, 1);
+    font-size: 15px;
+}
+
+.textdescriptionProduct {
+    font-size: 15px;
+}
+
+.textSize {
+    font-size: 15px;
+    color: rgba(159, 159, 159, 1);
+    margin-bottom: 17px;
+}
+
+.btnSize {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(249, 241, 231, 1);
+    border: 1px solid rgba(249, 241, 231, 1);
+    color: black;
+    margin-right: 16px;
+    transition: 0.3s;
+}
+
+.btnSize:hover {
+    background-color: rgba(184, 142, 47, 1);
+    border: 1px solid rgba(184, 142, 47, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.btnSizeXL {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(249, 241, 231, 1);
+    border: 1px solid rgba(249, 241, 231, 1);
+    color: black;
+    margin-right: 16px;
+    transition: 0.3s;
+}
+
+.btnSizeXL:hover {
+    background-color: rgba(184, 142, 47, 1);
+    border: 1px solid rgba(184, 142, 47, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.btnSizeXS {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(249, 241, 231, 1);
+    border: 1px solid rgba(249, 241, 231, 1);
+    color: black;
+    margin-right: 16px;
+    transition: 0.3s;
+}
+
+.btnSizeXS:hover {
+    background-color: rgba(184, 142, 47, 1);
+    border: 1px solid rgba(184, 142, 47, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.textColor {
+    font-size: 14px;
+    color: rgba(159, 159, 159, 1);
+}
+
+.wrapBtnColor {
+    margin-bottom: 32px;
+}
+
+.btnPurple {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(129, 109, 250, 1);
+    border-radius: 50%;
+    border: none;
+    margin-right: 16px;
+}
+
+.btnBlack {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 50%;
+    border: none;
+    margin-right: 16px;
+}
+
+.btnGold {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(184, 142, 47, 1);
+    border-radius: 50%;
+    border: none;
+}
+.wrapBtnFilter {
+    display: flex;
+    flex-direction: row;
+    /* width: 700px; */
+    margin-bottom: 60px;
+}
+.innerQuantity {
+    width: 123px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(159, 159, 159, 1);
+    border-radius: 10px;
+    margin-right: 16px;
+
+}
+
+.btnMinus {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.inputQuantity {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+
+.btnPlus {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+}
+.btnAddCard {
+    width: 215px;
+    height: 64px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.btnCompare {
+    width: 215px;
+    height: 64px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.wrapInformation {
+    width: 606px;
+    height: 100px;
+    border-top: 1px solid rgba(159, 159, 159, 1);
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+.innerSKU {
+    display: flex;
+    flex-wrap: wrap;
+}
+.innerCategory{
+    display: flex;
+    flex-wrap: wrap;
+}
+.innerCategory {
+    display: flex;
+    flex-wrap: wrap;
+}
+.innerShare {
+    display: flex;
+    flex-wrap: wrap;
+}
+.textTitleInformation {
+    color: rgba(159, 159, 159, 1);
+    font-size: 16px;
+    margin-right: 10px;
+}
+.textDescriptionInformation {
+    color: rgba(159, 159, 159, 1);
+    font-size: 16px;
+}
+.icons {
+    margin: 0px 10px 0px 10px;
+}
+.btnSizeActive {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(249, 241, 231, 1);
+    border: 1px solid rgba(249, 241, 231, 1);
+    color: black;
+    margin-right: 16px;
+    transition: 0.3s;
+    background-color: rgba(184, 142, 47, 1);
+}

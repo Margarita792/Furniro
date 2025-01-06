@@ -1,0 +1,66 @@
+.containerFooter {
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px solid rgba(159, 159, 159, 1);
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    width: 1335px;
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+.column1 {
+    margin-right: 60px;
+}
+
+.titleColumn1 {
+    margin-top: 0px;
+    margin-bottom: 55px;
+}
+
+.textColumn {
+    margin-bottom: 46px;
+}
+
+.addsColumn1 {
+    font-size: 16px;
+    color: rgba(159, 159, 159, 1);
+}
+
+
+.textInfo {
+    margin-right: 175px;
+    margin-bottom: 60px;
+    font-size: 16px;
+    color: rgba(159, 159, 159, 1);
+}
+
+.innerUnderlinText {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.underlinTextGray {
+    text-decoration: underline;
+    color: rgba(159, 159, 159, 1);
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+.underlinTextBlack {
+    text-decoration: underline;
+    margin-top: 0px;
+}
+
+.rowFooter {
+    border-top: 1px solid rgba(159, 159, 159, 1);
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    width: 1200px;
+    font-size: 16px;
+}

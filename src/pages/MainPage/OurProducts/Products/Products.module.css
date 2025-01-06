@@ -1,0 +1,142 @@
+.containerProducts {
+    width: 1300px;
+}
+
+.wrapperProducts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+
+.textOurProducts {
+    text-align: center;
+}
+
+.discount {
+    width: 48px;
+    height: 48px;
+    background-color: #FF5959;
+    color: white;
+    font-size: 16px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    left: 210px;
+}
+
+.new {
+    width: 48px;
+    height: 48px;
+    background-color: #2EC1AC;
+    color: white;
+    font-size: 16px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    left: 210px;
+}
+
+.innerSyltherine {
+    width: 285px;
+    height: 500px;
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.innerLeviosa {
+    width: 285px;
+    height: 405px;
+}
+
+.innerLolito {
+    width: 285px;
+    height: 500px;
+}
+
+.innerRespira {
+    width: 285px;
+    height: 500px;
+}
+
+.innerGrifo {
+    width: 285px;
+    height: 405px;
+}
+
+.innerMuggo {
+    width: 285px;
+    height: 500px;
+}
+
+.innerPingky {
+    width: 285px;
+    height: 500px;
+}
+
+.innerPotty {
+    width: 285px;
+    height: 500px;
+}
+
+.rowPrice {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.textTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+.textDescription {
+    margin-top: 8px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #898989;
+}
+
+.textPrice {
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.textPriceSale {
+    margin-top: 3px;
+    margin-left: 16px;
+    font-size: 16px;
+    color: #B0B0B0;
+    text-decoration: line-through;
+}
+
+.wrapBtnProduction {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.btnProducts {
+    width: 245px;
+    height: 48px;
+    font-weight: 600;
+    color: #B88E2F;
+    font-size: 16px;
+    border: 1px solid #B88E2F;
+    background-color: white;
+    margin-bottom: 104px;
+}

@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid rgba(159, 159, 159, 1);
+    border-right: none;
+    border-bottom: 1px solid rgba(159, 159, 159, 1);
+    border-left: none;
+    padding-bottom: 65px;
+    width: 1400px;
+}
+.wrapTitle {
+    width: 649px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    padding-top: 48px;
+}
+.textDescription {
+    margin-right: 67px;
+    font-size: 24px;
+}
+.textAdditional {
+    font-size: 24px;
+    color: rgba(159, 159, 159, 1);
+    margin-right: 67px;
+}
+.textReviews {
+    font-size: 24px;
+    color: rgba(159, 159, 159, 1);
+}
+.wrapText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1026px;
+    height: 174px;
+}
+.text {
+    color:rgba(159, 159, 159, 1);
+    font-size: 16px;
+}
+.img1 {
+    width: 605px;
+    height: 348px;
+    margin-right: 29px;
+}

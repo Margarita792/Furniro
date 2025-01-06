@@ -1,0 +1,101 @@
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1240px;
+    padding: 72px 81px 63px 81px;
+}
+.wrapTitle {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 55px;
+    background-color: rgba(249, 241, 231, 1);
+    margin-right: 30px;
+    margin-bottom: 55px;
+}
+.textProduct {
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 142px;
+    margin-right: 114px;
+}
+.textPrice {
+    font-size: 16px;
+    font-weight: bolder;
+    margin-right: 137px;
+}
+.textQuantity {
+    font-size: 16px;
+    font-weight: bolder;
+    margin-right: 36px;
+}
+.textSubtotalTitle {
+    font-size: 16px;
+    font-weight: bolder;
+}
+.wrapInformation {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 817px;
+}
+.img1 {
+    margin-right: 34px;
+}
+.textAsgaardSofa {
+    color: rgba(159, 159, 159, 1);
+    margin-right: 69px;
+}
+.textPriceInformation {
+    color: rgba(159, 159, 159, 1);
+    margin-right: 99px;
+}
+.inputQuantity {
+    width: 32px;
+    height: 32px;
+    border:1px solid rgba(159, 159, 159, 1);
+    border-radius: 5px;
+    margin-right: 51px;
+}
+.textSubtotalInformation {
+    margin-right: 49px;
+}
+.wrapCartTotal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    height: 380px;
+    background-color: rgba(249, 241, 231, 1);
+}
+.wrapSubtotal {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.textPriceSubtotal {
+    margin-left: 62px;
+    color: rgba(159, 159, 159, 1);
+}
+.textPriceTotal {
+    font-size: 20px;
+    color: rgba(184, 142, 47, 1);
+    margin-left: 58px;
+}
+.btnCheckOut {
+    width: 222px;
+    height: 58.95px;
+    font-size: 20px;
+    background-color: rgba(249, 241, 231, 1);
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-bottom: 80px;
+}
+.wrapTotal {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 48px;
+}

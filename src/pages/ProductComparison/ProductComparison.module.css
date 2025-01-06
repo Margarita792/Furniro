@@ -1,0 +1,44 @@
+
+.logo {
+    height: 77px;
+    width: 77px;
+}
+.img1 {
+    max-width: 100%;
+}
+.wrap {
+    position: relative;
+    bottom: 250px;
+    left: 500px;
+    width: 502px;
+    height: 149px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title {
+    width: 502px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 48px;
+}
+.inner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 179px;
+}
+.textHome {
+    font-size: 16px;
+    font-weight: bolder;
+    margin-right: 6px;
+    margin-top: 5px;
+}
+.sign {
+    margin-top: 5px;
+    margin-right: 6px;
+    font-weight: bolder;
+}
+.textComparison {
+    margin-top: 5px;
+}

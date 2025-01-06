@@ -1,0 +1,68 @@
+.container {
+    margin: 55px 54px 112px 55px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.wrapText {
+    width: 223px;
+    height: 260px;
+    margin-right: 75px;
+}
+.textGoToProduct {
+    font-size: 28px;
+}
+.textViewMore {
+    font-size: 20px;
+    color: rgba(114, 114, 114, 1);
+    text-decoration: underline;
+}
+.product1 {
+    margin-right: 47px;
+}
+.titleProduct {
+    font-size: 24px;
+}
+.priceProduct {
+    font-size: 18px;
+}
+.retingProduct {
+    font-size: 18px;
+}
+.innerStarsProduct {
+    width: 250px;
+    display: flex;
+    flex-direction:row;
+}
+.innerReviewProduct {
+    
+    border-top: none;
+    border-left: 1px solid rgba(159, 159, 159, 1);
+    border-bottom: none;
+    border-right: none;
+    padding-left: 10px;
+}
+.reviewProduct1 {
+    font-size: 13px;
+    color: rgba(159, 159, 159, 1);
+    border-top: none;
+    border-right: 1px solid rgba(159, 159, 159, 1);
+    border-bottom: none;
+    border-left: none;
+}
+.product2 {
+    margin-right: 67px;
+}
+.textAddAProduct {
+    font-size: 24px;
+    font-weight: bolder;
+}
+.select {
+    width: 242px;
+    height: 39px;
+    background-color: rgba(184, 142, 47, 1);
+    color: white;
+    border: none;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 6px;
+}

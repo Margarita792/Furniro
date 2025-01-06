@@ -1,0 +1,66 @@
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 96px;
+}
+
+.wrapColumn {
+    width: 330px;
+}
+
+.title {
+    margin-left: 96px;
+
+}
+
+.text {
+    font-size: 20px;
+    height: 50px;
+}
+
+/* .textWarranty {
+    font-size: 20px;
+    height: 160px;
+} */
+.textWarrantyRow1 {
+    font-size: 20px;
+    height: 50px;
+    margin-bottom: 34px;
+}
+
+.textWarrantyRow2 {
+    font-size: 20px;
+    height: 125px;
+    margin-bottom: 35px;
+}
+
+.textWarrantyRow3 {
+    font-size: 20px;
+    height: 50px;
+    margin-bottom: 94px;
+}
+
+.textWarrantyRow4 {
+    font-size: 20px;
+    height: 175px;
+    margin-bottom: 34px;
+}
+
+.textWarrantyRow5 {
+    font-size: 20px;
+    height: 25px;
+    margin-bottom: 60px;
+}
+
+.btnAddToCart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 215px;
+    height: 64px;
+    background-color: rgba(184, 142, 47, 1);
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(184, 142, 47, 1);
+    font-size: 20px;
+    margin-bottom: 112px;
+}

@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 35px;
+    margin-top: 85px;
+    
+    width: 1365px;
+    height: 270px;
+    background-color: rgba(250, 247, 234, 1);
+}
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.inner {
+    width: 265px;
+    height: 70px;
+margin-left: 20px;
+}
+.title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.text {
+    margin-top: 0px;
+    font-size: 20px;
+    color:rgba(137, 137, 137, 1) ;
+}
