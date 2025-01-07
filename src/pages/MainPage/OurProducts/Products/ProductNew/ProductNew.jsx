@@ -5,7 +5,7 @@ function ProductNew({ img, title, description, price }) {
             <div className={style.new}>
                 <p>New </p>
             </div>
-            <img src={img} />
+            <img src={img} alt=""/>
             <p className={style.textTitle}>{title}</p>
             <p className={style.textDescription}>{description}</p>
             <p className={style.textPrice}>Rs. {price}</p>

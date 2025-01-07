@@ -1,4 +1,3 @@
-
 import AsgaardSofa from '../SingleProduct/AsgaardSofa/AsgaardSofa';
 import DescriptionSingleProduct from '../SingleProduct/DescriptionSingleProduct/DescriptionSingleProduct';
 import style from '../SingleProduct/SingleProduct.module.css'
@@ -22,7 +21,6 @@ function SingleProduct({ products,cart, addCart}) {
         <AsgaardSofa product={products[id]}  cart ={cart} addCart = {addCart}/>
         <DescriptionSingleProduct />
         <RelatedProducts products={products}  />
-        
     </>
     )
 }

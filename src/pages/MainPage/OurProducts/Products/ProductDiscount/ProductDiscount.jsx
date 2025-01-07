@@ -4,7 +4,7 @@ function ProductDiscount({ discount, title, description, price, sale, img }) {
         <div className={style.discount}>
             <p className={style.textDiscount}>{discount}</p>
         </div>
-        <img src={img} />
+        <img src={img} alt=""/>
         <p className={style.textTitle}>{title}</p>
         <p className={style.textDescription}>{description}</p>
         <div className={style.rowPrice}>

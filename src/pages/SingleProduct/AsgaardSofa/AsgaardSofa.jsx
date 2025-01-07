@@ -9,7 +9,7 @@ import icon2 from '../../../img/Shop/AsgaardSofa/akar-icons_linkedin-box-fill.sv
 import icon3 from '../../../img/Shop/AsgaardSofa/ant-design_twitter-circle-filled.svg'
 import style from '../AsgaardSofa/AsgaardSofa.module.css'
 
-function AsgaardSofa({product, addCart, cart}) {
+function AsgaardSofa({product, addCart}) {
     const [quantity, setQuantity] = useState(1);
     return (
     <>

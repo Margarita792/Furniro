@@ -8,7 +8,7 @@ function Header({setCartVisible }) {
     return (<>
         <div className={style.headerContainer}>
             <div >
-                <img className={style.logo} src={logo} />
+                <img className={style.logo} src={logo} alt=""/>
             </div>
             <div className={style.containerTextHeader}>
                 <Link className={style.link} to="/">
@@ -26,9 +26,9 @@ function Header({setCartVisible }) {
                 </Link>
             </div>
             <div className={style.icons}>
-                <img className={style.icon} src={icon1} />
-                <img className={style.icon} src={icon2} />
-                <img className={style.icon} src={icon3} />
+                <img className={style.icon} src={icon1} alt=""/>
+                <img className={style.icon} src={icon2} alt=""/>
+                <img className={style.icon} src={icon3} alt=""/>
                 <button className={style.btnCart} onClick={()=> {setCartVisible(true)}}></button>
             </div>
         </div>

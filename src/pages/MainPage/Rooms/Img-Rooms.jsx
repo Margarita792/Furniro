@@ -11,15 +11,15 @@ function Rooms() {
             </div>
             <div className={style.imagesRooms}>
                 <div className={style.dining}>
-                    <img src={dining} />
+                    <img src={dining} alt=""/>
                     <p className={style.textDining}>Dining</p>
                 </div>
                 <div className={style.dining}>
-                    <img src={living} />
+                    <img src={living} alt=""/>
                     <p className={style.textDining}>Living</p>
                 </div>
                 <div className={style.dining}>
-                    <img src={bedroom} />
+                    <img src={bedroom} alt=""/>
                     <p className={style.textDining}>Bedroom</p>
                 </div>
             </div>

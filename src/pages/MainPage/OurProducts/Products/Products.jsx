@@ -56,21 +56,6 @@ function Products({  products, discount,img,title,description,price,sale,state }
                         )
                     }
                 })}
-                {/* <ProductDiscount discount="-30%" img={img1} title="Syltherine" description="Stylish cafe chair" price="Rp 2.500.000" sale="Rp 3.500.000" />
-
-                <ProductOrdinary img={img2} title="Leviosa" description="Stylish cafe chair" price="Rp 2.500.000" />
-
-                <ProductDiscount discount="-50%" img={img3} title="Lolito" description="Luxury big sofa" price="Rp 7.000.000" sale="Rp 14.000.000" />
-
-                <ProductNew New="New" img={img4} title="Respira" description="Outdoor bar table and stool" price="Rp 500.000" />
-
-                <ProductOrdinary img={img5} title="Grifo" description="Night lamp" price="Rp 1.500.000" />
-
-                <ProductNew New="New" img={img6} title="Muggo" description="Small mug" price="Rp 150.000" />
-
-                <ProductDiscount discount="-50%" img={img7} title="Pingky" description="Cute bed set" price="Rp 7.000.000" sale="Rp 14.000.000" />
-
-                <ProductNew New="New" img={img8} title="Potty" description="Minimalist flower pot" price="Rp 500.000" /> */}
             </div>
         </div>
         <div className={style.wrapBtnProduction}>

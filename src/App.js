@@ -8,7 +8,6 @@ import Checkout from './pages/Checkout/Checkout';
 import Contact from './pages/Contact/Contact';
 import Blog from './pages/Blog/Blog';
 import { useState } from 'react';
-
 import Layout from './pages/Layout/Layout';
 
 
@@ -24,7 +23,6 @@ function App() {
       discount: -30,
       size: ["L", "XXL", "M"],
       currentSize: "M",
-
     },
     {
       img: "https://i.imgur.com/ME2vrj3.png",
@@ -34,7 +32,6 @@ function App() {
       state: "default",
       size: ["S", "XL", "XS"],
       currentSize: "XS",
-
     },
     {
       img: "https://i.imgur.com/ekgrd1K.png",
@@ -45,7 +42,6 @@ function App() {
       discount: -50,
       size: ["L", "XL", "XS"],
       currentSize: "L",
-
     },
     {
       img: "https://i.imgur.com/JEGB2Ue.png",
@@ -55,7 +51,6 @@ function App() {
       state: "new",
       size: ["L", "M", "S"],
       currentSize: "S",
-
     },
     {
       img: "https://i.imgur.com/o7yJXUI.png",
@@ -65,7 +60,6 @@ function App() {
       state: "default",
       size: ["L", "XL", "XS"],
       currentSize: "L",
-
     },
     {
       img: "https://i.imgur.com/wCBC9UT.png",

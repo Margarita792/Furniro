@@ -13,7 +13,7 @@ function InspirationRooms() {
                 <button className={style.btnInspirationRooms1}>Explore More</button>
             </div>
             <div className={style.innerImgBtn}>
-                <img src={img1} />
+                <img src={img1} alt=""/>
                 <div className={style.content}>
                     <p className={style.textContent1}>01 — Bed Room</p>
                     <p className={style.textContent2}>Inner Peace</p>
@@ -22,14 +22,14 @@ function InspirationRooms() {
             </div>
             <div className={style.innerImgSlider}>
                 <div className={style.imgs}>
-                    <img className={style.imgsImg2} src={img2} />
-                    <img src={img3} />
+                    <img className={style.imgsImg2} src={img2} alt=""/>
+                    <img src={img3} alt=""/>
                 </div>
-                <img className={style.ndicator} src={img4} />
+                <img className={style.ndicator} src={img4} alt=""/>
             </div>
         </div>
         <button className={style.btnSlider}>→</button>
-        <img className={style.furniture} src={img5} />
+        <img className={style.furniture} src={img5} alt=""/>
     </>
     )
 }

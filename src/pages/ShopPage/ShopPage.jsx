@@ -1,10 +1,7 @@
-
-import style from '../ShopPage/ShopPage.module.css'
-import img1 from '../../img/Shop/Rectangle 1.svg'
-import icon1 from '../../img/Shop/icon1.svg'
-import icon2 from '../../img/Shop/icon2.svg'
-import icon3 from '../../img/Shop/icon3.svg'
-import img2 from '../../img/Shop/Feature.svg'
+import style from '../ShopPage/ShopPage.module.css';
+import icon1 from '../../img/Shop/icon1.svg';
+import icon2 from '../../img/Shop/icon2.svg';
+import icon3 from '../../img/Shop/icon3.svg';
 import Feature from '../MainPage/Feature/Feature';
 import ProductsShopPage from './ProductsShopPage/ProductsShopPage';
 import Quality from './Quality/Quality';
@@ -16,10 +13,10 @@ function ShopPage({ products }) {
             <Feature title="Shop" text="Shop" />
             <div className={style.filterSection}>
                 <div className={style.sideIcons}>
-                    <img className={style.icons} src={icon1} />
+                    <img className={style.icons} src={icon1} alt=""/>
                     <p className={style.textFilter}>Filter</p>
-                    <img className={style.icons} src={icon2} />
-                    <img className={style.icons} src={icon3} />
+                    <img className={style.icons} src={icon2} alt=""/>
+                    <img className={style.icons} src={icon3} alt=""/>
                     <div className={style.showingResults}>
                         <p className={style.textShowingResult}>Showing 1–16 of 32 results</p>
                     </div>
