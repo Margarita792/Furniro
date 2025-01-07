@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import OrderShopingCart from '../OrderShopingCart/OrderShopingCart';
-import style from './ShoppingCart.module.css'
-import { useEffect, useState } from 'react';
+import style from './ShoppingCart.module.css';
 function ShoppingCart({ cart, cartVisible, setCartVisible, changeCart }) {
   
     const getTotal = () => {
@@ -12,9 +11,6 @@ function ShoppingCart({ cart, cartVisible, setCartVisible, changeCart }) {
         console.log(sum);
         return sum;
     };
-  
-
-
 
     return (<>
         <div className={cartVisible ? style.container : style.hidden}>

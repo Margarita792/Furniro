@@ -1,6 +1,6 @@
 import pic from '../../../img/scandinavian-interior-mockup-wall-decal-background 1.svg'
 import style from '../Sidebar/Sidebar.module.css'
-function Sidebar({ }) {
+function Sidebar() {
     return (<>
          <div className={style.containerSidebar}>
             <img className={style.sidebarPic} src={pic} />

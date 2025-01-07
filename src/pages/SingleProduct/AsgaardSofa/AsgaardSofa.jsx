@@ -1,20 +1,16 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import img1 from '../../../img/Shop/AsgaardSofa/Group1.svg'
 import img2 from '../../../img/Shop/AsgaardSofa/Group2.svg'
 import img3 from '../../../img/Shop/AsgaardSofa/Group3.svg'
 import img4 from '../../../img/Shop/AsgaardSofa/Group4.svg'
-// import img5 from '../../../img/Shop/AsgaardSofa/Group5.svg'
 import img6 from '../../../img/Shop/AsgaardSofa/Stars.svg'
 import icon1 from '../../../img/Shop/AsgaardSofa/akar-icons_facebook-fill.svg'
 import icon2 from '../../../img/Shop/AsgaardSofa/akar-icons_linkedin-box-fill.svg'
 import icon3 from '../../../img/Shop/AsgaardSofa/ant-design_twitter-circle-filled.svg'
 import style from '../AsgaardSofa/AsgaardSofa.module.css'
 
-
-
 function AsgaardSofa({product, addCart, cart}) {
     const [quantity, setQuantity] = useState(1);
-
     return (
     <>
         <div className={style.container}>
@@ -97,10 +93,7 @@ function AsgaardSofa({product, addCart, cart}) {
                 </div>
             </div>
         </div>
-      
-       
     </>
-
     )
 }
 export default AsgaardSofa;

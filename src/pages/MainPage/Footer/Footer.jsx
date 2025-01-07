@@ -1,9 +1,8 @@
 import { Link } from 'react-router-dom';
 import style from './Footer.module.css'
-function Footer({ }) {
+function Footer() {
     return (<>
         <div className={style.containerFooter}>
-            
                 <div className={style.column1}>
                     <h1 className ={style.titleColumn1}>Funiro.</h1>
                     <p className={style.addsColumn1}>400 University Drive Suite 200 Coral<br /> Gables,<br />
@@ -34,7 +33,6 @@ function Footer({ }) {
             <p className={style.textRowFooter}>2023 furino. All rights reverved</p>
         </div>
         </div>
-        
     </>
     )
 }

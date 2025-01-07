@@ -4,7 +4,7 @@ import img3 from '../../../img/Inspiration Rooms/Rectangle 26.svg';
 import img4 from '../../../img/Inspiration Rooms/Indicator.svg';
 import img5 from '../../../img/Inspiration Rooms/Share.svg';
 import style from './InspirationRooms.module.css';
-function InspirationRooms({ }) {
+function InspirationRooms() {
     return (<>
         <div className={style.containerInspirationRooms}>
             <div className={style.innerTextBtn}>

@@ -1,17 +1,11 @@
-import Header from "../MainPage/Header/Header";
 import style from './Checkout.module.css';
-// import img1 from '../../img/Shop/Rectangle 1.svg';
 import logo from '../../img/Header/Meubel House_Logos-05.svg';
 import ellips1 from './../../img/Checkout/Ellipse1.svg';
 import ellips2 from './../../img/Checkout/Ellipse2.svg';
-import img2 from '../../img/Checkout/Frame 161.svg';
-import Footer from "../MainPage/Footer/Footer";
 import Quality from "../ShopPage/Quality/Quality";
-
 
 function Checkout() {
     return (<>
-        
         <div className={style.img1}>
             {/* <img className={style.img1} src={img1} alt="" /> */}
             <div className={style.wrap}>

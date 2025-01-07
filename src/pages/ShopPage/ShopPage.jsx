@@ -1,6 +1,4 @@
 
-import Header from '../MainPage/Header/Header';
-import Footer from '../MainPage/Footer/Footer'
 import style from '../ShopPage/ShopPage.module.css'
 import img1 from '../../img/Shop/Rectangle 1.svg'
 import icon1 from '../../img/Shop/icon1.svg'
@@ -15,9 +13,7 @@ function ShopPage({ products }) {
     const [page, setPage] = useState(1);
     return (
         <>
-           
             <Feature title="Shop" text="Shop" />
-
             <div className={style.filterSection}>
                 <div className={style.sideIcons}>
                     <img className={style.icons} src={icon1} />
@@ -47,7 +43,6 @@ function ShopPage({ products }) {
                 <button className={style.buttonNext}>Next</button>
             </div>
             <Quality />
-           
         </>
     );
 }

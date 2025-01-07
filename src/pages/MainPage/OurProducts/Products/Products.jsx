@@ -20,7 +20,7 @@ function Products({  products, discount,img,title,description,price,sale,state }
                 
 
                 {products.slice(0,8).map((item,index)=>{
-                    if (item.state == "discount") {
+                    if (item.state === "discount") {
                         return (
                             <Link key={index} className={style.link} to = {`/shop/product/${index}`}>
                             <ProductDiscount 
@@ -33,7 +33,7 @@ function Products({  products, discount,img,title,description,price,sale,state }
                             </Link>
                         )
                     }
-                    if (item.state == "default") {
+                    if (item.state === "default") {
                         return (
                             <Link key={index} className={style.link} to = {`/shop/product/${index}`}>
                         <ProductOrdinary 
@@ -44,7 +44,7 @@ function Products({  products, discount,img,title,description,price,sale,state }
                          </Link>
                         )
                     }
-                    if (item.state == "new") {
+                    if (item.state === "new") {
                         return (
                             <Link key={index} className={style.link} to = {`/shop/product/${index}`}>
                         <ProductNew 

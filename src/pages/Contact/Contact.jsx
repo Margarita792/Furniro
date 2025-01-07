@@ -1,10 +1,7 @@
-import Header from "../MainPage/Header/Header";
-import style from './Contact.module.css'
-import logo from '../../img/Header/Meubel House_Logos-05.svg'
-import icon1 from '../../img/Contact/Vector.svg'
-import icon2 from '../../img/Contact/bxs_phone.svg'
-import icon3 from '../../img/Contact/bi_clock-fill.svg'
-import Footer from "../MainPage/Footer/Footer";
+import style from './Contact.module.css';
+import icon1 from '../../img/Contact/Vector.svg';
+import icon2 from '../../img/Contact/bxs_phone.svg';
+import icon3 from '../../img/Contact/bi_clock-fill.svg';
 import Feature from "../MainPage/Feature/Feature";
 import Quality from "../ShopPage/Quality/Quality";
 

@@ -12,7 +12,7 @@ function ProductsShopPage({ page, products, discount, img, title, description, p
                 {products
                     .slice(4 * (page - 1), 4 * page)
                     .map((item,index) => {
-                        if (item.state == "discount") {
+                        if (item.state === "discount") {
                             return (
                                 <Link className={style.link} to={`/shop/product/${index}`}>
                                     <ProductDiscount 
@@ -25,7 +25,7 @@ function ProductsShopPage({ page, products, discount, img, title, description, p
                                 </Link>
                             )
                         }
-                        if (item.state == "default") {
+                        if (item.state === "default") {
                             return (
                                 <Link className={style.link} to={`/shop/product/${index}`}>
                                     <ProductOrdinary
@@ -37,7 +37,7 @@ function ProductsShopPage({ page, products, discount, img, title, description, p
                             )
                         }
 
-                        if (item.state == "discount") {
+                        if (item.state === "discount") {
                             return (
                                 <Link className={style.link} to={`/shop/product/${index}`}>
                                     <ProductDiscount
@@ -50,7 +50,7 @@ function ProductsShopPage({ page, products, discount, img, title, description, p
                                 </Link>
                             )
                         }
-                        if (item.state == "new") {
+                        if (item.state === "new") {
                             return (
                                 <Link className={style.link} to={`/shop/product/${index}`}>
                                     <ProductNew
@@ -63,153 +63,6 @@ function ProductsShopPage({ page, products, discount, img, title, description, p
                             )
                         }
                     })}
-
-                {/* <ProductDiscount
-                    discount={-30}
-                    img="https://i.imgur.com/L4WgBdL.png"
-                    title="Syltherine"
-                    description="Stylish cafe chair"
-                    price="Rp 2.500.000"
-                    sale="Rp 3.500.000"
-                />
-                <ProductOrdinary
-                    img="https://i.imgur.com/ME2vrj3.png"
-                    title="Leviosa"
-                    description="Stylish cafe chair"
-                    price="Rp 2.500.000"
-                    state="default"
-                />
-                <ProductDiscount
-                    state="discount"
-                    discount={-50}
-                    img="https://i.imgur.com/ekgrd1K.png"
-                    title="Lolito"
-                    description="Luxury big sofa"
-                    price="Rp 7.000.000"
-                    sale="Rp 14.000.000"
-                />
-                <ProductNew
-                    state="new"
-                    img="https://i.imgur.com/JEGB2Ue.png"
-                    title="Respira"
-                    description="Outdoor bar table and stool"
-                    price="Rp 500.000" />
-                <ProductDiscount
-                    discount={-30}
-                    img="https://i.imgur.com/L4WgBdL.png"
-                    title="Syltherine"
-                    description="Stylish cafe chair"
-                    price="Rp 2.500.000"
-                    sale="Rp 3.500.000"
-                />
-                <ProductOrdinary
-                    img="https://i.imgur.com/ME2vrj3.png"
-                    title="Leviosa"
-                    description="Stylish cafe chair"
-                    price="Rp 2.500.000"
-                    state="default"
-                />
-                <ProductDiscount
-                    state="discount"
-                    discount={-50}
-                    img="https://i.imgur.com/ekgrd1K.png"
-                    title="Lolito"
-                    description="Luxury big sofa"
-                    price="Rp 7.000.000"
-                    sale="Rp 14.000.000"
-                />
-                <ProductNew
-                    state="new"
-                    img="https://i.imgur.com/JEGB2Ue.png"
-                    title="Respira"
-                    description="Outdoor bar table and stool"
-                    price="Rp 500.000" />
-                <ProductDiscount
-                    discount={-30}
-                    img="https://i.imgur.com/L4WgBdL.png"
-                    title="Syltherine"
-                    description="Stylish cafe chair"
-                    price="Rp 2.500.000"
-                    sale="Rp 3.500.000"
-                />
-                <ProductOrdinary
-                    img="https://i.imgur.com/ME2vrj3.png"
-                    title="Leviosa"
-                    description="Stylish cafe chair"
-                    price="Rp 2.500.000"
-                    state="default"
-                />
-                <ProductDiscount
-                    state="discount"
-                    discount={-50}
-                    img="https://i.imgur.com/ekgrd1K.png"
-                    title="Lolito"
-                    description="Luxury big sofa"
-                    price="Rp 7.000.000"
-                    sale="Rp 14.000.000"
-                />
-                <ProductNew
-                    state="new"
-                    img="https://i.imgur.com/JEGB2Ue.png"
-                    title="Respira"
-                    description="Outdoor bar table and stool"
-                    price="Rp 500.000" />
-                <ProductDiscount
-                    discount={-30}
-                    img="https://i.imgur.com/L4WgBdL.png"
-                    title="Syltherine"
-                    description="Stylish cafe chair"
-                    price="Rp 2.500.000"
-                    sale="Rp 3.500.000"
-                />
-                <ProductOrdinary
-                    img="https://i.imgur.com/ME2vrj3.png"
-                    title="Leviosa"
-                    description="Stylish cafe chair"
-                    price="Rp 2.500.000"
-                    state="default"
-                />
-                <ProductDiscount
-                    state="discount"
-                    discount={-50}
-                    img="https://i.imgur.com/ekgrd1K.png"
-                    title="Lolito"
-                    description="Luxury big sofa"
-                    price="Rp 7.000.000"
-                    sale="Rp 14.000.000"
-                />
-                <ProductNew
-                    state="new"
-                    img="https://i.imgur.com/JEGB2Ue.png"
-                    title="Respira"
-                    description="Outdoor bar table and stool"
-                    price="Rp 500.000" /> */}
-
-
-
-
-                {/* <ProductDiscount discount="-30%" img={img1} title="Syltherine" description="Stylish cafe chair" price="Rp 2.500.000" sale="Rp 3.500.000" />
-
-               
-                <ProductOrdinary img={img2} title="Leviosa" description="Stylish cafe chair" price="Rp 2.500.000" />
-
-               
-                <ProductDiscount discount="-50%" img={img3} title="Lolito" description="Luxury big sofa" price="Rp 7.000.000" sale="Rp 14.000.000" />
-
-                
-                <ProductNew New="New" img={img4} title="Respira" description="Outdoor bar table and stool" price="Rp 500.000" />
-
-                
-                <ProductOrdinary img={img5} title="Grifo" description="Night lamp" price="Rp 1.500.000" />
-
-                
-                <ProductNew New="New" img={img6} title="Muggo" description="Small mug" price="Rp 150.000" />
-
-                
-                <ProductDiscount discount="-50%" img={img7} title="Pingky" description="Cute bed set" price="Rp 7.000.000" sale="Rp 14.000.000" />
-
-                
-                <ProductNew New="New" img={img8} title="Potty" description="Minimalist flower pot" price="Rp 500.000" /> */}
             </div>
         </div>
         <div className={style.wrapBtnProduction}>

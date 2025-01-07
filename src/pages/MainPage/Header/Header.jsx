@@ -2,11 +2,9 @@ import logo from '../../../img/Header/Frame 168.png';
 import icon1 from '../../../img/Header/mdi_account-alert-outline.svg';
 import icon2 from '../../../img/Header/akar-icons_search.svg';
 import icon3 from '../../../img/Header/akar-icons_heart.svg';
-import icon4 from '../../../img/Header//ant-design_shopping-cart-outlined.svg';
 import style from './Header.module.css';
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
-function Header({cartVisible,setCartVisible }) {
+function Header({setCartVisible }) {
     return (<>
         <div className={style.headerContainer}>
             <div >

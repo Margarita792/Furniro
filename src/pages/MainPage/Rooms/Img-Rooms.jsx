@@ -2,7 +2,7 @@ import dining from '../../../img/Rooms/Dining.svg'
 import living from '../../../img/Rooms/living.svg'
 import bedroom from '../../../img/Rooms/Bedroom.svg'
 import style from './Img-Rooms.module.css'
-function Rooms({ }) {
+function Rooms() {
     return (<>
         <div className={style.containerRooms}>
             <div className={style.innerText}>

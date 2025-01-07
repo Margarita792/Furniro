@@ -3,7 +3,6 @@ import style2 from '../RelatedProducts/RelatedProducts.module.css'
 import ProductDiscount from '../../MainPage/OurProducts/Products/ProductDiscount/ProductDiscount';
 import ProductOrdinary from '../../MainPage/OurProducts/Products/ProductOrdinary/ProductOrdinary';
 import ProductNew from '../../MainPage/OurProducts/Products/ProductNew/ProductNew';
-
 import { useState } from 'react';
 function RelatedProducts({ products }) {
     const [ShowMore, setShowMore] = useState(4)
@@ -47,18 +46,6 @@ function RelatedProducts({ products }) {
                             )
                         }
                     })}
-
-                {/* <ProductDiscount discount="-30%" img={img1} title="Syltherine" description="Stylish cafe chair" price="Rp 2.500.000" sale="Rp 3.500.000" />
-
-                
-                <ProductOrdinary img={img2} title="Leviosa" description="Stylish cafe chair" price="Rp 2.500.000" />
-
-              
-                <ProductDiscount discount="-50%" img={img3} title="Lolito" description="Luxury big sofa" price="Rp 7.000.000" sale="Rp 14.000.000" />
-
-                
-                <ProductNew New="New" img={img4} title="Respira" description="Outdoor bar table and stool" price="Rp 500.000" /> */}
-
             </div>
             <div className={style.wrapBtnProduction}>
                 <button onClick={() => { setShowMore(products.length) }} className={style.btnProducts}>Show More</button>
