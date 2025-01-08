@@ -10,7 +10,9 @@ function Header({ setCartVisible }) {
     return (<>
         <div className={style.headerContainer}>
             <div >
+            <Link className={style.link} to="/">
                 <img className={style.logo} src={logo} alt="" />
+                </Link>
             </div>
             <div className={style.containerTextHeader}>
                 <Link className={style.link} to="/">

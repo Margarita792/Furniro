@@ -12,9 +12,9 @@
 .logo {
     display: flex;
     justify-content: start;
-    width: 185px;
     height: 41px;
     margin-top: 5px;
+    background-size: 100% 100%;
 }
 .containerTextHeader {
     display: flex;

@@ -6,8 +6,7 @@
     height: 700px;
 }
 .wrap {
-    /* padding-left: 39px;
-    padding-top: 62px; */
+    background-size:contain;
     background-color: #FFF3E3;
     width: 590px;
     height: 443px;
