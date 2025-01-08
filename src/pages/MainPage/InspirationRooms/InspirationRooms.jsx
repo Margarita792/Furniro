@@ -27,9 +27,12 @@ function InspirationRooms() {
                 </div>
                 <img className={style.ndicator} src={img4} alt=""/>
             </div>
+            <button className={style.btnSlider}>→</button>
         </div>
-        <button className={style.btnSlider}>→</button>
+       
+        <div className={style.innerFurniture}>
         <img className={style.furniture} src={img5} alt=""/>
+        </div>
     </>
     )
 }
