@@ -45,7 +45,7 @@ function AsgaardSofa({product, addCart}) {
                 <div className={style.wrapBtnSize}>
                     {product.size.map((item,index) => {
                         return <button key = {index} onClick={() => {
-                        }} className={product.currentSize == item ? style.btnSizeActive : style.btnSize}>
+                        }} className={product.currentSize === item ? style.btnSizeActive : style.btnSize}>
                             {item}</button>
                     })}
                 </div>
