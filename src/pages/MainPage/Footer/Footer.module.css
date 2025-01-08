@@ -1,5 +1,4 @@
 .containerFooter {
-    padding: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -7,7 +6,7 @@
     border-right: none;
     border-bottom: none;
     border-left: none;
-    width: 1335px;
+    width: 100%;
 }
 .link {
     text-decoration: none;
