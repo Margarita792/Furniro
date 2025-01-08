@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function RelatedProducts({ products }) {
     const [ShowMore, setShowMore] = useState(4)
     return (<>
-        <div className={style2.container}>
+        <div >
             <h1 className={style.textOurProducts}>Related Products</h1>
             <div className={style.wrapperProducts}>
                 {products
