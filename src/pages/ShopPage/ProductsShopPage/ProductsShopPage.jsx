@@ -3,7 +3,7 @@ import ProductOrdinary from '../../MainPage/OurProducts/Products/ProductOrdinary
 import ProductNew from '../../MainPage/OurProducts/Products/ProductNew/ProductNew'
 import style from '../../MainPage/OurProducts/Products/Products.module.css'
 import { Link } from 'react-router-dom'
-function ProductsShopPage({ page, products, discount, img, title, description, price, sale, state }) {
+function ProductsShopPage({ page, products }) {
     return (<>
 
         <h1 className={style.textOurProducts}>Our Products</h1>
@@ -61,6 +61,7 @@ function ProductsShopPage({ page, products, discount, img, title, description, p
 
                             )
                         }
+                        return null;
                     })}
             </div>
         </div>

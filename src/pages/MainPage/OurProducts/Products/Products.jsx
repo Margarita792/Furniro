@@ -3,7 +3,7 @@ import ProductOrdinary from './ProductOrdinary/ProductOrdinary'
 import ProductNew from './ProductNew/ProductNew'
 import style from '../Products/Products.module.css'
 import { Link } from 'react-router-dom'
-function Products({ products, discount, img, title, description, price, sale, state }) {
+function Products({ products}) {
     return (<>
 
         <h1 className={style.textOurProducts}>Our Products</h1>
@@ -47,6 +47,7 @@ function Products({ products, discount, img, title, description, price, sale, st
                             </Link>
                         )
                     }
+                    return null;
                 })}
             </div>
         </div>

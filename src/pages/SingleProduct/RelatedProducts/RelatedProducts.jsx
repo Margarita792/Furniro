@@ -52,6 +52,7 @@ function RelatedProducts({ products }) {
                                 </Link>
                             )
                         }
+                        return null;
                     })}
             </div>
             <div className={style.wrapBtnProduction}>
