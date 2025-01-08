@@ -79,15 +79,6 @@
     left: 238px;
 }
 
-/* .imgs {
-    display: flex;
-    flex-wrap: wrap;
-} */
-/* .img-hidden {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-} */
  .imgsImg2 {
     margin-right: 30px;
  }
@@ -111,7 +102,7 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
  }
  .furniture {
-    width: 1390px;
+    width: 100px;
     height: 100vh;
     margin-bottom: 50px;
     margin-left: 7px;

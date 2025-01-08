@@ -1,7 +1,5 @@
 .headerContainer {
     display: flex;
-    /* justify-content: space-around;
-    width: 1400px; */
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;

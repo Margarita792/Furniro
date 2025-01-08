@@ -1,5 +1,4 @@
 import style from '../../MainPage/OurProducts/Products/Products.module.css'
-import style2 from '../RelatedProducts/RelatedProducts.module.css'
 import ProductDiscount from '../../MainPage/OurProducts/Products/ProductDiscount/ProductDiscount';
 import ProductOrdinary from '../../MainPage/OurProducts/Products/ProductOrdinary/ProductOrdinary';
 import ProductNew from '../../MainPage/OurProducts/Products/ProductNew/ProductNew';
