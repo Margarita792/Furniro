@@ -8,7 +8,7 @@ function ProductDiscount({ discount, title, description, price, sale, img }) {
         <p className={style.textTitle}>{title}</p>
         <p className={style.textDescription}>{description}</p>
         <div className={style.rowPrice}>
-            <p className={style.textPrice}>{price}</p>
+            <p className={style.textPrice}>Rs. {price}</p>
             <p className={style.textPriceSale}>{sale}</p>
         </div>
     </div>

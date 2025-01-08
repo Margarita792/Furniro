@@ -4,11 +4,13 @@ import icon2 from '../../../img/Header/akar-icons_search.svg';
 import icon3 from '../../../img/Header/akar-icons_heart.svg';
 import style from './Header.module.css';
 import { Link } from 'react-router-dom';
-function Header({setCartVisible }) {
+import { useState } from 'react';
+function Header({ setCartVisible }) {
+    const [searchVisible, setSearchVisible] = useState(false);
     return (<>
         <div className={style.headerContainer}>
             <div >
-                <img className={style.logo} src={logo} alt=""/>
+                <img className={style.logo} src={logo} alt="" />
             </div>
             <div className={style.containerTextHeader}>
                 <Link className={style.link} to="/">
@@ -16,20 +18,25 @@ function Header({setCartVisible }) {
                 </Link>
 
                 <Link className={style.link} to="/shop">
-                <p className={style.textHeader}>Shop</p>
+                    <p className={style.textHeader}>Shop</p>
                 </Link>
                 <Link className={style.link} to="/blog">
-                <p className={style.textHeader}>About</p>
+                    <p className={style.textHeader}>About</p>
                 </Link>
                 <Link className={style.link} to="/contact">
-                <p>Contact</p>
+                    <p>Contact</p>
                 </Link>
             </div>
             <div className={style.icons}>
-                <img className={style.icon} src={icon1} alt=""/>
-                <img className={style.icon} src={icon2} alt=""/>
-                <img className={style.icon} src={icon3} alt=""/>
-                <button className={style.btnCart} onClick={()=> {setCartVisible(true)}}></button>
+                <img className={style.icon} src={icon1} alt="Account" />
+                <div className={style.searchWrapper}>
+                    <img className={style.icon} src={icon2} alt="Search" onClick={() => setSearchVisible(!searchVisible)} />
+                    {searchVisible && (
+                        <input className={style.inputSearch} type="text" placeholder="Search..." autoFocus />
+                    )}
+                </div>
+                <img className={style.icon} src={icon3} alt="Favorites" />
+                <button className={style.btnCart} onClick={() => { setCartVisible(true) }}></button>
             </div>
         </div>
     </>

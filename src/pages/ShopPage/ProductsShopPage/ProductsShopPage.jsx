@@ -11,17 +11,17 @@ function ProductsShopPage({ page, products, discount, img, title, description, p
             <div className={style.wrapperProducts}>
                 {products
                     .slice(4 * (page - 1), 4 * page)
-                    .map((item,index) => {
+                    .map((item, index) => {
                         if (item.state === "discount") {
                             return (
                                 <Link className={style.link} to={`/shop/product/${index}`}>
-                                    <ProductDiscount 
-                                    discount={item.discount} 
-                                    img={item.img} 
-                                    title={item.title} 
-                                    description={item.description} 
-                                    price={item.price} 
-                                    sale={item.sale} />
+                                    <ProductDiscount
+                                        discount={item.discount}
+                                        img={item.img}
+                                        title={item.title}
+                                        description={item.description}
+                                        price={item.price}
+                                        sale={item.sale} />
                                 </Link>
                             )
                         }
@@ -36,7 +36,6 @@ function ProductsShopPage({ page, products, discount, img, title, description, p
                                 </Link>
                             )
                         }
-
                         if (item.state === "discount") {
                             return (
                                 <Link className={style.link} to={`/shop/product/${index}`}>

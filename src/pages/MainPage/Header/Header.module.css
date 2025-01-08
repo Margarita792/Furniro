@@ -1,7 +1,11 @@
 .headerContainer {
     display: flex;
-    justify-content: space-around;
-    width: 1400px;
+    /* justify-content: space-around;
+    width: 1400px; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
 }
 .link {
     text-decoration: none;
@@ -22,7 +26,13 @@
     margin-right: 75px;
     font-size: 16px;
 }
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
 .icon {
+    cursor: pointer;
     width: 24px;
     height: 24px;
     margin-right: 45px;
@@ -35,4 +45,25 @@
     height: 24px;
     border: none;
     background-color: white;
+    cursor: pointer;
+    margin-top: 15px;
+
+}
+.searchWrapper {
+    position: relative;
+}
+
+.inputSearch {
+    position: absolute;
+    top: 30px;
+    right: 80px;
+    outline: #ccc;
+    font-size: 20px;
+    transform: translateY(-50%);
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: opacity 0.3s ease;
+    width: 200px;
+    height: 30px;
 }

@@ -13,10 +13,10 @@ function ShopPage({ products }) {
             <Feature title="Shop" text="Shop" />
             <div className={style.filterSection}>
                 <div className={style.sideIcons}>
-                    <img className={style.icons} src={icon1} alt=""/>
+                    <img className={style.icons} src={icon1} alt="" />
                     <p className={style.textFilter}>Filter</p>
-                    <img className={style.icons} src={icon2} alt=""/>
-                    <img className={style.icons} src={icon3} alt=""/>
+                    <img className={style.icons} src={icon2} alt="" />
+                    <img className={style.icons} src={icon3} alt="" />
                     <div className={style.showingResults}>
                         <p className={style.textShowingResult}>Showing 1–16 of 32 results</p>
                     </div>

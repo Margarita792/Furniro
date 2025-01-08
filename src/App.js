@@ -12,7 +12,7 @@ import Layout from './pages/Layout/Layout';
 
 
 function App() {
-  const [products, setProducts] = useState([
+  const [products] = useState([
     {
       img: "https://i.imgur.com/L4WgBdL.png",
       title: "Syltherine",
@@ -38,6 +38,7 @@ function App() {
       title: "Lolito",
       description: "Luxury big sofa",
       price: 1500000,
+      sale: "Rp 3.500.000",
       state: "discount",
       discount: -50,
       size: ["L", "XL", "XS"],
@@ -75,6 +76,7 @@ function App() {
       title: "Pingky",
       description: "Cute bed set",
       price: 7000000,
+      sale: "Rp 3.500.000",
       state: "discount",
       discount: -50,
       size: ["L", "M", "XS"],
@@ -103,6 +105,7 @@ function App() {
       title: "Pingky",
       description: "Cute bed set",
       price: 7000000,
+      sale: "Rp 3.500.000",
       state: "discount",
       discount: -50,
       size: ["L", "XL", "XS"],
@@ -135,7 +138,6 @@ function App() {
       size: ["L", "XL", "S"],
       currentSize: "S",
     }
-
   ]);
 
   const [cart, setCart] = useState([]);
@@ -150,7 +152,6 @@ function App() {
   }
 
   return (<>
-
     <BrowserRouter>
       <Routes>
         <Route element={<Layout cart={cart} changeCart={changeCart} />}>
@@ -162,7 +163,6 @@ function App() {
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
-
         </Route>
       </Routes>
     </BrowserRouter>

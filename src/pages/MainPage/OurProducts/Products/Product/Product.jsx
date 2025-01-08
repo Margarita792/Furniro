@@ -2,7 +2,7 @@ import style from '../Products.module.css'
 function ProductDiscount({ discount, img, title, description, price, sale }) {
     return (<div className={style.innerSyltherine}>
         <div className={style.discount}>
-            <p className={style.textDiscount}>{discount}</p>
+            <p className={style.textDiscount}>{discount}%</p>
         </div>
         <img src={img} alt=""/>
         <p className={style.textTitle}>{title}</p>

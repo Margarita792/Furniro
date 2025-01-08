@@ -4,6 +4,7 @@ import ProductDiscount from '../../MainPage/OurProducts/Products/ProductDiscount
 import ProductOrdinary from '../../MainPage/OurProducts/Products/ProductOrdinary/ProductOrdinary';
 import ProductNew from '../../MainPage/OurProducts/Products/ProductNew/ProductNew';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 function RelatedProducts({ products }) {
     const [ShowMore, setShowMore] = useState(4)
     return (<>
@@ -12,37 +13,43 @@ function RelatedProducts({ products }) {
             <div className={style.wrapperProducts}>
                 {products
                     .slice(0, ShowMore)
-                    .map((item,index) => {
+                    .map((item, index) => {
                         if (item.state === "discount") {
                             return (
-                                <ProductDiscount
-                                key={`discount-${index}`}
-                                    discount={item.discount}
-                                    img={item.img}
-                                    title={item.title}
-                                    description={item.description}
-                                    price={item.price}
-                                    sale={item.sale} />
+                                <Link key={index} className={style.link} to={`/shop/product/${index}`}>
+                                    <ProductDiscount
+                                        key={`discount-${index}`}
+                                        discount={item.discount}
+                                        img={item.img}
+                                        title={item.title}
+                                        description={item.description}
+                                        price={item.price}
+                                        sale={item.sale} />
+                                </Link>
                             )
                         }
                         if (item.state === "default") {
                             return (
-                                <ProductOrdinary
-                                key={`ordinary-${index}`}
-                                    img={item.img}
-                                    title={item.title}
-                                    description={item.description}
-                                    price={item.price} />
+                                <Link key={index} className={style.link} to={`/shop/product/${index}`}>
+                                    <ProductOrdinary
+                                        key={`ordinary-${index}`}
+                                        img={item.img}
+                                        title={item.title}
+                                        description={item.description}
+                                        price={item.price} />
+                                </Link>
                             )
                         }
                         if (item.state === "new") {
                             return (
-                                <ProductNew
-                                key={`new-${index}`}
-                                    img={item.img}
-                                    title={item.title}
-                                    description={item.description}
-                                    price={item.price} />
+                                <Link key={index} className={style.link} to={`/shop/product/${index}`}>
+                                    <ProductNew
+                                        key={`new-${index}`}
+                                        img={item.img}
+                                        title={item.title}
+                                        description={item.description}
+                                        price={item.price} />
+                                </Link>
                             )
                         }
                     })}
