@@ -1,5 +1,5 @@
-import pic from '../../../img/scandinavian-interior-mockup-wall-decal-background 1.svg'
-import style from '../Sidebar/Sidebar.module.css'
+import pic from '../../../img/Sidebar/scandinavian-interior-mockup-wall-decal-background 1.svg';
+import style from '../Sidebar/Sidebar.module.css';
 function Sidebar() {
     return (<>
          <div className={style.containerSidebar}>
