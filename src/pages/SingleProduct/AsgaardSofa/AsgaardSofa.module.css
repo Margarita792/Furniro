@@ -200,6 +200,11 @@
     background-color: white;
     border: 1px solid white;
 }
+.btnMinus:active {
+    background-color: rgba(184, 142, 47, 1);
+    color:white;
+    border: none;
+}
 
 .inputQuantity {
     width: 40px;
@@ -222,6 +227,11 @@
     background-color: white;
     border: 1px solid white;
 }
+.btnPlus:active {
+    background-color: rgba(184, 142, 47, 1);
+    color:white;
+    border: none;
+}
 .btnAddCard {
     width: 215px;
     height: 64px;
@@ -231,6 +241,11 @@
     font-size: 20px;
     margin-right: 10px;
 }
+.btnAddCard:active {
+    background-color: rgba(184, 142, 47, 1);
+    color:white;
+    border: none;
+}
 .btnCompare {
     width: 215px;
     height: 64px;
@@ -238,6 +253,11 @@
     border: 1px solid black;
     border-radius: 10px;
     font-size: 20px;
+}
+.btnCompare:active {
+    background-color: rgba(184, 142, 47, 1);
+    color:white;
+    border: none;
 }
 .wrapInformation {
     width: 606px;

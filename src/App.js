@@ -145,11 +145,17 @@ function App() {
   const addCart = (product) => {
     setCart((currentCart) => [...currentCart, product])
   }
+
+
   const changeCart = (index, quantity) => {
     let copyCart = cart.slice();
-    copyCart[index].quantity = quantity;
+    if (quantity === null) {
+        copyCart.splice(index, 1);
+    } else {
+        copyCart[index].quantity = quantity;
+    }
     setCart(copyCart);
-  }
+};
 
   return (<>
     <BrowserRouter>

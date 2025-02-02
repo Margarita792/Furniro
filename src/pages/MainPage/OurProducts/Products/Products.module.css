@@ -138,3 +138,8 @@
     background-color: white;
     margin-bottom: 104px;
 }
+.btnProducts:active{
+    background-color: rgba(184, 142, 47, 1);
+    color:white;
+    border: none;
+} 

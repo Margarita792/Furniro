@@ -11,7 +11,9 @@ function Products({ products }) {
             <div className={style.wrapperProducts}>
 
 
-                {products.slice(0, 4).map((item, index) => {
+                {products
+                .slice(0, 4)
+                .map((item, index) => {
                     if (item.state === "discount") {
                         return (
                             <Link key={index} className={style.link} to={`/shop/product/${index}`}>
@@ -53,7 +55,9 @@ function Products({ products }) {
             <div className={style.wrapperProducts}>
 
 
-                {products.slice(4, 8).map((item, index) => {
+                {products
+                .slice(4, 8)
+                .map((item, index) => {
                     if (item.state === "discount") {
                         return (
                             <Link key={index} className={style.link} to={`/shop/product/${index}`}>

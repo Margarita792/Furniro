@@ -21,8 +21,7 @@ function OrderShopingCart({ item, changeCart, index}) {
                     </div>
                 </>
             )}
-
-            <button className={style.btnDelete}></button>
+            <button className={style.btnDelete} onClick={() => changeCart(index, null)}></button>
         </div>
 
         
