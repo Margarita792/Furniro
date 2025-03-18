@@ -149,7 +149,7 @@ function App() {
 
   const changeCart = (index, quantity) => {
     let copyCart = cart.slice();
-    if (quantity === null) {
+    if (!quantity) {
         copyCart.splice(index, 1);
     } else {
         copyCart[index].quantity = quantity;

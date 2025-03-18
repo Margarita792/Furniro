@@ -4,19 +4,23 @@
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
 .innerTextBtn {
-    height: auto;
+    width: 400px;
     display: flex;
     flex-direction: column;
     text-align: center;
     margin-right: 50px;
     margin-left: 50px;
 }
-
+.img1{
+    width: 300px;
+    height: 430px;
+}
 .titleInspirationRooms {
     font-size: 40px;
     font-weight: bold;
@@ -34,23 +38,26 @@
     height: 48px;
     background-color: #B88E2F;
     color: #FFFFFF;
-    font-weight: bolder;
+    font-weight: bold;
     border: none;
-    margin-top: 20px;
-    margin: 10px auto;
+    margin: 20px auto 0;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.btnInspirationRooms1:hover {
+    background-color: #a0772f;
 }
 
 .content {
-    width: 217px;
-    height: 130px;
-    background-color: rgba(255, 255, 255, 0.72);
+    width: 80%;
+    max-width: 250px;
+    background-color: rgba(255, 255, 255, 0.85);
     position: relative;
-    bottom: 180px;
-    left: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+   top: 10px;
+    left: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .textContent1 {
@@ -74,12 +81,16 @@
     color: #FFFFFF;
     font-size: 30px;
     position: relative;
-    bottom: 228px;
-    left: 238px;
+    bottom: 200px;
+    left: 250px;
 }
 
  .imgsImg2 {
     margin-right: 30px;
+    width: 300px;
+ }
+ .img3 {
+    height: 390px;
  }
  .indicator {
     margin-top: 40px;
@@ -89,15 +100,14 @@
     height: 48px;
     border-radius: 50%;
     color: #B88E2F;
-    background-color:white;
+    background-color: white;
     font-size: 30px;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     border: none;
-    position: relative;
-    top: 230px;
-    right: 305px;
+    cursor: pointer;
+    transition: 0.3s ease;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
  }
  .furniture {

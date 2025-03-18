@@ -1,7 +1,6 @@
 
 import style from './OrderShopingCart.module.css';
 function OrderShopingCart({ item, changeCart, index}) {
- 
     return (<>
         <div className={style.wrapOrderShopingCart}>
             {item && (
@@ -23,8 +22,6 @@ function OrderShopingCart({ item, changeCart, index}) {
             )}
             <button className={style.btnDelete} onClick={() => changeCart(index, null)}></button>
         </div>
-
-        
     </>)
 }
 export default OrderShopingCart;

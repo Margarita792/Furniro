@@ -9,8 +9,6 @@ function Products({ products }) {
         <h1 className={style.textOurProducts}>Our Products</h1>
         <div className={style.containerProducts}>
             <div className={style.wrapperProducts}>
-
-
                 {products
                 .slice(0, 4)
                 .map((item, index) => {

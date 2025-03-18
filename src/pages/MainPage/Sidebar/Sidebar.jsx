@@ -3,7 +3,9 @@ import style from '../Sidebar/Sidebar.module.css';
 function Sidebar() {
     return (<>
          <div className={style.containerSidebar}>
+            <div className={style.wrapSidebarPic} >
             <img className={style.sidebarPic} src={pic} alt=""/>
+            </div>
             <div className={style.wrap}>
             <div className={style.inner}>
                 <p className={style.text1}>New Arrival</p>
