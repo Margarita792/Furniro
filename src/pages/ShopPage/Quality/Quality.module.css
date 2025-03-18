@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    padding-left: 35px;
     margin-top: 85px;
     
     width: 100%;
@@ -17,6 +16,10 @@
     justify-content: space-around;
 }
 .inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     width: 265px;
     height: 70px;
 margin-left: 20px;

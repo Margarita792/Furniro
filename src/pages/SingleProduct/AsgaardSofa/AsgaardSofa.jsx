@@ -29,19 +29,14 @@ function AsgaardSofa({product, addCart}) {
             <div className={style.textSection}>
                 <h1 className={style.textTitle}>{product.title}</h1>
                 <h2 className={style.textPrice}>Rs.{product.price}</h2>
-
                 <div className={style.wrapStars}>
                     <img className={style.img3} src={img6} alt="" />
                     <div className={style.innerCustomerReview}>
                         <p className={style.textCustomerReview}>5 Customer Review</p>
                     </div>
                 </div>
-                <p className={style.textdescriptionProduct}>{product.description}
-
-                </p>
-
+                <p className={style.textdescriptionProduct}>{product.description} </p>
                 <p className={style.textSize}>Size</p>
-
                 <div className={style.wrapBtnSize}>
                     {product.size.map((item,index) => {
                         return <button key = {index} onClick={() => {

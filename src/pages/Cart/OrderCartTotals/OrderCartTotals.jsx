@@ -9,7 +9,7 @@ function OrderCartTotals({ item, changeCart, index }) {
                 onChange={(e) => { changeCart(index, e.target.value) }}
                 type="number" />
             <p className={style.textSubtotalOrderCartTotals}>Rs. {item.price * item.quantity}</p>
-            <button className={style.btnDelete}></button>
+            <button onClick={() => changeCart(index, null)} className={style.btnDelete}></button>
         </div>
     </>)
 }
